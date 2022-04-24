@@ -69,6 +69,7 @@ body {
 .form-container {
     display: flex;
     justify-content: center;
+    padding-top: 50px;
 }
 
 
@@ -77,16 +78,23 @@ body {
     padding: 55px 60px 40px 60px;
     background-color: #fff;
     border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .form-title {
     font-size: 32px;
-    max-width: 428px;
-    width: 100%;
+    /* width: 428px; */
     font-weight: 600;
     margin: 0;
     line-height: 42px;
     margin-bottom: 79px;
+    display: flex;
+    justify-content: center;
+}
+
+.user-icon {
+    width: 16px;
+    margin-bottom: 16px;
 }
 
 .form-input {
@@ -137,20 +145,4 @@ body {
 
 .form-btn:active {
     opacity: 0.6;
-}
-
-.form-link {
-    display: flex;
-    justify-content: center;
-    color: #F03535;
-    margin: 0;
-    text-align: center;
-    max-width: 347px;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: none;
-}
-
-.form-link:hover {
-    text-decoration: underline;
 }
